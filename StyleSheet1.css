@@ -22,7 +22,7 @@ nav {
 
 label.logo {
     font-size: 35px;
-    color: white;
+    color: black;
     padding: 0 100px;
     line-height: 90px;
 }
@@ -123,5 +123,19 @@ a:hover {
         background: #ffffff;
         transition: 1s;
     }
+.main {
+    padding: 100px;
+    position: absolute;
+    left: 10px;
+    width: 290px;
+    height: 200px;
+}
+.main h2{
+    color:black;
+}
 
+.main p{
+    font-size:19px;
+    color:black;
+}
 

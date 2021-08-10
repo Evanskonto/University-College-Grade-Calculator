@@ -26,17 +26,9 @@ function btnAdd_Click() {
     } else {
         overallScore = module1 + module2 + module3 + module4 + module5 + module6;//prints the overall score
         Result.innerText = "Your overall score is : " + overallScore;
-
-
-
-
-
-
         if (percentage = (overallScore / 600) * 100) {
             // prints out the percentage
             answer.innerText = "Your percentage is : " + percentage;
-
-
         }
         //alert(percentage);
         if (percentage <= 100 && percentage >= 80) {
@@ -59,8 +51,6 @@ function btnAdd_Click() {
             answer2.innerText = "You Fail.";
             answer3.innerText = "Your Grade is 4.";
         }
-
-
     }
 }
 

@@ -10,7 +10,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{AE065DBD-0111-48B9-8B02-AEA5CB3CFF84}"
 	ProjectSection(SolutionItems) = preProject
 		StyleSheet1.css = StyleSheet1.css
-		StyleSheet2.css = StyleSheet2.css
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JavaScript", "JavaScript", "{4E9B9F3C-C7B4-4A8D-8858-A04B656CC8B2}"
@@ -20,7 +19,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JavaScript", "JavaScript", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Html", "Html", "{FCB81E1F-B8F6-40ED-9E07-2DC2B2E23291}"
 	ProjectSection(SolutionItems) = preProject
-		About.html = About.html
 		University-College Grade Calculator.html = University-College Grade Calculator.html
 	EndProjectSection
 EndProject
