@@ -58,4 +58,12 @@ a:hover {
     position: absolute;
     width: 1334px;
     height: 441px;
+    
 }
+ article p{
+    font-size:150%;
+
+ }
+ article h2{
+     font-size:30px;
+ }

@@ -4,7 +4,6 @@
     text-decoration: none;
     list-style: none;
 }
-
 body {
     justify-content: center;
     display: flex;
@@ -13,8 +12,6 @@ body {
     background-size: 1660px 800px;
     font-family: montserrat;
 }
-
-
 
 nav {
     height: 70px;
@@ -29,19 +26,15 @@ label.logo {
     padding: 0 100px;
     line-height: 90px;
 }
-
-
 nav ul {
     float: right;
     margin-right: 90px;
 }
-
 nav li {
     display: inline-block;
     margin: 0 8px;
     line-height: 80px;
 }
-
 nav a {
     color: black;
     font-size: 18px;
@@ -50,19 +43,16 @@ nav a {
     padding: 7px 10px;
     border-radius: 3px;
 }
-
 a:hover {
     border: 1px solid white;
     transition: 1s;
 }
-
 .conteiner hi {
     color: white;
     font-size: 23px;
     width: 10px;
     font-weight: bold;
 }
-
 .conteiner {
     background: radial-gradient(rgba(255,255,255,0.09),rgba(255,255,255,0.5));
     border-radius: 20px;
@@ -74,7 +64,6 @@ a:hover {
     left: 50%;
     transform: translate(-50%,-50%);
 }
-
     .conteiner input[type= 'text'] {
         border: 0;
         background: none;
@@ -104,7 +93,6 @@ a:hover {
         border-radius: 10px;
         font-weight: bold;
     }
-
     .conteiner input[type='reset'] {
         border: 0;
         background: none;
@@ -118,7 +106,6 @@ a:hover {
         border-radius: 10px;
         font-weight: bold;
     }
-
     .conteiner p[type='paragraph'] {
         color: black;
         font-size: 18px;
