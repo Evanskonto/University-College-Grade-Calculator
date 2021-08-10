@@ -1,17 +1,36 @@
 ﻿<!DOCTYPE html>
+
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>University-College Grade Calculator</title>
-    <link href="StyleSheet1.css" rel="stylesheet" />
+    <title>University-College Grade Calculator </title>
+    <link rel="stylesheet" href="StyleSheet1.css" />
 </head>
 <body>
+
+    <nav>
+        <label class="logo">University-College Grade Calculator</label>
+
+        <ul class="navbar-nav">
+            <li>
+                <a href="Home.html">Home</a>
+            </li>
+            <li>
+                <a href="About.html">About</a>
+            </li>
+
+        </ul>
+
+
+    </nav>
+
     <div class="conteiner">
 
         <hi> University-College Grade Calculator</hi>
         <p> </p>
 
         <input id="txtNumber1" type="text" placeholder="Module #1" />
+
         <p></p>
         <input id="txtNumber2" type="text" placeholder="Module #2" />
         <p></p>
@@ -22,9 +41,12 @@
         <input id="txtNumber5" type="text" placeholder="Module #5" />
         <p></p>
         <input id="txtNumber6" type="text" placeholder="Module #6" />
+
         <p></p>
+
         <input id="btnAdd" type="submit" value="Calculate" onclick="btnAdd_Click()" />
         <input id="btnReset" type="reset" value="Reset" onclick="btnReset_Click()" />
+
         <p id="Result" type="paragraph" />
         <p id="answer" type="paragraph" />
         <p id="answer2" type="paragraph" />
@@ -32,13 +54,13 @@
         <p id="answer4" type="paragraph" />
 
     </div>
-   
 </body>
 </html>
 
 
 
-<script>
+<script src="Script2.js">
+    var Change = new change()
     var percentage;
     function btnReset_Click() {
         document.getElementById("txtNumber1").value = '';
@@ -52,49 +74,55 @@
     }
     function btnAdd_Click() {
         var overallScore;
-        
+
         var module1 = parseInt(document.getElementById("txtNumber1").value);
         var module2 = parseInt(document.getElementById("txtNumber2").value);
         var module3 = parseInt(document.getElementById("txtNumber3").value);
         var module4 = parseInt(document.getElementById("txtNumber4").value);
         var module5 = parseInt(document.getElementById("txtNumber5").value);
         var module6 = parseInt(document.getElementById("txtNumber6").value);
+
         if (module1 > 100 || module2 > 100 || module3 > 100 || module4 > 100 || module5 > 100 || module6 > 100) {
-            alert("Please enter mark in range of 100") // show an alert everytime the user enter marks over to 100
+            alert("Please enter marks between 0-100") // show an alert everytime the user enter marks over to 100
         } else {
-            overallScore = module1 + module2 + module3 + module4 + module5 + module6; //prints the overall score
+            overallScore = module1 + module2 + module3 + module4 + module5 + module6;//prints the overall score
             Result.innerText = "Your overall score is : " + overallScore;
-        }
 
-        if (percentage = (overallScore / 600) * 100) {
-            // prints out the percentage
-            answer.innerText = "Your percentage is : " + percentage;
 
-        } 
-        //alert(percentage);
-        if (percentage <= 100 && percentage >= 80) {
-            answer2.innerText = "Congratulations!!! You Pass";
-            answer3.innerText = "Your Grade is 1-1";
-        }
-        if (percentage <= 79 && percentage >= 60) {
-            answer2.innerText = "Congratulations!!! You Pass";
-            answer3.innerText = "Your Grade is 2-1";
-        }
-        if (percentage <= 69 && percentage >= 40) {
-            answer2.innerText = "Congratulations!!! You Pass";
-            answer3.innerText = "Your Grade is 2-2";
-        }
-        if (percentage <= 39 && percentage >= 20) {
-            answer2.innerText = "You Fail";
-            answer3.innerText = "Your Grade is 3";
-        }
-        if (percentage <= 19 && percentage >= 0) {
-            answer2.innerText = "You Fail";
-            answer3.innerText = "Your Grade is 4";
+
+            if (percentage = (overallScore / 600) * 100) {
+                // prints out the percentage
+                answer.innerText = "Your percentage is : " + percentage;
+
+
+            }
+            //alert(percentage);
+            if (percentage <= 100 && percentage >= 80) {
+                answer2.innerText = "Congratulations!!! You Pass.";
+                answer3.innerText = "Your Grade is 1-1.";
+            }
+            if (percentage <= 79 && percentage >= 60) {
+                answer2.innerText = "Congratulations!!! You Pass.";
+                answer3.innerText = "Your Grade is 2-1.";
+            }
+            if (percentage <= 69 && percentage >= 40) {
+                answer2.innerText = "Congratulations!!! You Pass.";
+                answer3.innerText = "Your Grade is 2-2.";
+            }
+            if (percentage <= 39 && percentage >= 20) {
+                answer2.innerText = "You Fail.";
+                answer3.innerText = "Your Grade is 3.";
+            }
+            if (percentage <= 19 && percentage >= 0) {
+                answer2.innerText = "You Fail.";
+                answer3.innerText = "Your Grade is 4.";
+            }
+
+
         }
     }
- 
+
+
+
 </script>
-
-
 

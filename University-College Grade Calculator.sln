@@ -6,13 +6,22 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "University-College Grade Calculator", "University-College Grade Calculator.csproj", "{A300918F-AEB9-4514-9558-354ACC43579D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{913BFEFD-F99C-40A8-BEAE-370A983A6E2F}"
-	ProjectSection(SolutionItems) = preProject
-		HTMLPage1.html = HTMLPage1.html
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{AE065DBD-0111-48B9-8B02-AEA5CB3CFF84}"
 	ProjectSection(SolutionItems) = preProject
 		StyleSheet1.css = StyleSheet1.css
+		StyleSheet2.css = StyleSheet2.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JavaScript", "JavaScript", "{4E9B9F3C-C7B4-4A8D-8858-A04B656CC8B2}"
+	ProjectSection(SolutionItems) = preProject
+		Script2.js = Script2.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Html", "Html", "{FCB81E1F-B8F6-40ED-9E07-2DC2B2E23291}"
+	ProjectSection(SolutionItems) = preProject
+		About.html = About.html
+		University-College Grade Calculator.html = University-College Grade Calculator.html
 	EndProjectSection
 EndProject
 Global
@@ -31,6 +40,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AE065DBD-0111-48B9-8B02-AEA5CB3CFF84} = {913BFEFD-F99C-40A8-BEAE-370A983A6E2F}
+		{4E9B9F3C-C7B4-4A8D-8858-A04B656CC8B2} = {913BFEFD-F99C-40A8-BEAE-370A983A6E2F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {09503114-1384-430B-A102-1D24079D1C4E}
